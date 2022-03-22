@@ -16,7 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-        - name: nginx
-          image: nginx-github
+        - name: nginx-github
+          image: nginx
           ports:
           - containerPort: 80
