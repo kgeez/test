@@ -27,6 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: argo deploy
+        shell: bash
         run: argocd app sync nginx-github --force
 
      
